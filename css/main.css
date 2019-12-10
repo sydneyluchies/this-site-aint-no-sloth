@@ -1,5 +1,6 @@
 html {
   font-family: Verdana;
+  padding-top: .6em;
 }
 
 img {
@@ -7,6 +8,35 @@ img {
   height: auto;
 }
 
-figcaption {
+h1 {
+  position: absolute;
+  top: 25px;
   font-family: Georgia;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.caption {
+  font-family: Georgia;
+  font-style: italic;
+}
+
+hr {
+  color: red;
+}
+
+figcaption {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .last-img {
+    height: 23em;
+  }
+
+  h1 {
+    top: 29px;
+  }
+
 }
