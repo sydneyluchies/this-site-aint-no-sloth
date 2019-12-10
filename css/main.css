@@ -47,12 +47,46 @@ figcaption {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 73%;
+    width: 72%;
     background-color: #bea586;
+    background-image: url("../images/sloth-bg.svg");
+    background-size: 48px auto;
   }
 
   body {
     background-color: #fff;
+    padding-bottom: .5em;
+  }
+
+  .middle-img {
+    height: 23.8em;
+    background: linear-gradient(rgba(28, 14, 0), rgb(28, 14, 0));
+  }
+
+  .last-img {
+    height: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    background-color: #bea586;
+    background-image: url("../images/sloth-bg.svg");
+    background-size: 48px auto;
+  }
+
+  h1 {
+    top: 36px;
+  }
+
+  .last-img {
+    height: 23.5em;
   }
 
 }
