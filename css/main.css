@@ -1,4 +1,12 @@
+html {
+  font-family: Verdana;
+}
+
 img {
   width: 100%;
   height: auto;
+}
+
+figcaption {
+  font-family: Georgia;
 }
